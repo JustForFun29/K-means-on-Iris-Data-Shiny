@@ -1,3 +1,18 @@
+## How to run:
+
+Open R script or Rmd notebook on your laptop and do the following:
+
+You will need the following packages to be installed:
+```
+install.packages(c("shiny"))
+```
+
+The app can then be run from within the R console with the following code:
+```
+library("shiny")  
+runGitHub("JustForFun29/K-means-on-Iris-Data-Shiny")  
+```
+
 ## Assignment Description:
 
 Visual implementation of the k-means clustering algorithm using Shiny library to cluster a data set. Used a data set from the UC Irvine Machine Learning Repository at: https://archive.ics.uci.edu/ml/index.html.
