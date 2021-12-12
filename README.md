@@ -3,8 +3,8 @@
 The k-means algorithm is the simplest and most intuitive. It works as
 follows.
 
-1. Decide how many clusters we want. Call this $k$. (Because we have
-   to choose $k$, the algorithm does not do this for us, this method
+1. Decide how many clusters we want. Call this `k`. (Because we have
+   to choose `k`, the algorithm does not do this for us, this method
    is "semi-supervised" rather than wholly "unsupervised.")
 
 2. Create $k$ random cluster means (also called "centroids"). Our
