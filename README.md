@@ -22,13 +22,28 @@ runGitHub("JustForFun29/K-means-on-Iris-Data-Shiny")
 Visual implementation of the k-means clustering algorithm using Shiny library to cluster a data set. Used a data set from the UC Irvine Machine Learning Repository at: https://archive.ics.uci.edu/ml/index.html.
 
 
+## Motivation: 
+1.What data you collected?:
+I used iris dataset https://archive.ics.uci.edu/ml/datasets/Iris
+2.Why this topic is interesting or important to you? 
+Because iris dataset is very simple, most common and convinient for k-means clustering.
+3.How did you analyze the data?
+There is no need of data preprocessing, information about classes I got from the official website 
+4.What did you find in the data?
+The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; 
+the latter are NOT linearly separable from each other. 
 
-Program works as follows:
+### Attribute Information:
 
-1. Read the data from the file. Use only the floating point values for the clustering. Don’t discard the class information. We will need it later for assigning names to the clusters and for checking the accuracy of the clusters.
-2. Apply the k-means algorithm to find clusters. (There are 3 natural clusters in the case of the iris data.) (See below for more information on k-means.) Use Euclidean distance as your distance measure.
-3. Assign each final cluster a name by choosing the most frequently occurring class label of the examples in the cluster.
-4. Find the number of data points that were put in clusters in which they didn’t belong (based on having a different class label than the cluster name).
+1. sepal length in cm
+2. sepal width in cm
+3. petal length in cm
+4. petal width in cm
+5. class:
+-- Iris Setosa
+-- Iris Versicolour
+-- Iris Virginica
+
 
 ## K-means algorithm
 
