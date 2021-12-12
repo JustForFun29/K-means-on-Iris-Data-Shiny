@@ -1,3 +1,7 @@
+## Deployed app in Shiny web site: 
+
+https://dimash.shinyapps.io/Downloads/
+
 ## How to run:
 
 Open R script or Rmd notebook on your laptop and do the following:
