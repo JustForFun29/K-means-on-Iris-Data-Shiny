@@ -2,9 +2,9 @@
 
 Open R script or Rmd notebook on your laptop and do the following:
 
-You will need the following packages to be installed:
+You will need the following package to be installed:
 ```
-install.packages(c("shiny"))
+install.packages("shiny")
 ```
 
 The app can then be run from within the R console with the following code:
