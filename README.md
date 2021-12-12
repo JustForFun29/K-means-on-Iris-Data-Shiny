@@ -23,13 +23,13 @@ Visual implementation of the k-means clustering algorithm using Shiny library to
 
 
 ## Motivation: 
-1.What data you collected?:
+1. What data you collected?:
 I used iris dataset https://archive.ics.uci.edu/ml/datasets/Iris
-2.Why this topic is interesting or important to you? 
+2. Why this topic is interesting or important to you? 
 Because iris dataset is very simple, most common and convinient for k-means clustering.
-3.How did you analyze the data?
+3. How did you analyze the data?
 There is no need of data preprocessing, information about classes I got from the official website 
-4.What did you find in the data?
+4. What did you find in the data?
 The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; 
 the latter are NOT linearly separable from each other. 
 
